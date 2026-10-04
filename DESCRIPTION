@@ -1,0 +1,33 @@
+Package: covidpbmc
+Type: Project
+Title: Reproducible Single-Cell RNA-seq Analysis of COVID-19 PBMCs
+Version: 0.0.0.9000
+Authors@R:
+    c(
+      person("Khaled", role = c("aut", "cre")),
+      person("Marwan", role = "aut")
+    )
+Description:
+    A reproducible single-cell RNA-seq analysis project for investigating
+    immune-cell composition and transcriptional programs in COVID-19
+    peripheral blood mononuclear cells. The project emphasizes modular R
+    development, reproducibility, testing, workflow management, and
+    collaborative software engineering.
+License: MIT
+Encoding: UTF-8
+Depends:
+    R (>= 4.6.1)
+Imports:
+    Seurat,
+    dplyr,
+    ggplot2,
+    patchwork,
+    SingleCellExperiment,
+    targets,
+    tarchetypes
+Suggests:
+    testthat,
+    lintr,
+    covr,
+    quarto
+    
