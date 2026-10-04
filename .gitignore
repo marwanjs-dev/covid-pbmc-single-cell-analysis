@@ -1,0 +1,31 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv
+renv/library/
+renv/staging/
+renv/python/
+
+# Data
+data/raw/
+data/processed/
+
+# Generated results
+results/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Quarto
+.quarto/
+
+# Temporary files
+*.tmp
+*.log
