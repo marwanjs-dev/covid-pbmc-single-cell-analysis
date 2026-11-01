@@ -1,0 +1,5 @@
+sample_id,donor,condition,replicate,sex,data_dir
+covid_556,C2,COVID,T1,F,data/raw/covid_556
+covid_557,C3,COVID,T1,M,data/raw/covid_557
+covid_558,C4,COVID,T1,M,data/raw/covid_558
+HIP043,H4,Healthy,T1,F,data/raw/HIP043
